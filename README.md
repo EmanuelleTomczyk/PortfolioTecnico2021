@@ -1,6 +1,7 @@
 # Portfolio_Tecnico_2021
 
 <h1> Currículo </h1>
+
 EMANUELLE LUIZE TOMCZYK 
 
 <b>E-mail</b>: emanuelletomczyk@gmail.com
