@@ -1,12 +1,10 @@
 # Portfolio_Tecnico_2021
 
 <h1> Currículo </h1>
-
 EMANUELLE LUIZE TOMCZYK 
 
-<b>E-mail</b>: emanuelletomczyk@gmail.com
-
-<b>Telefone</b>: (48) 98453-6513
+* <b> E-mail:</b> emanuelletomczyk@gmail.com
+* <b>Telefone:</b> (48) 98453-6513
 
 <h2> Formação Acadêmica: </h2>
 
