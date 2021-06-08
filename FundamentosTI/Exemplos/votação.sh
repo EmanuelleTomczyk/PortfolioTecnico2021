@@ -10,7 +10,7 @@ read ano_nasc
 ano_18=$((ano_atual-18))
 ano_16=$((ano_atual-16))
 
-if [ $ano_nasc - le $ano_18 ]
+if [ $ano_nasc -le $ano_18 ]
 then 
       echo "Você deve votar!"
       
