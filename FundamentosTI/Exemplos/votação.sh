@@ -4,7 +4,7 @@
 #bin/bash
 echo "Qual é o ano atual?" 
 read ano_atual
-echo "Qual ano que você nasceu? 
+echo "Qual ano que você nasceu?" 
 read ano_nasc
 
 ano_18=$((ano_atual-18))
