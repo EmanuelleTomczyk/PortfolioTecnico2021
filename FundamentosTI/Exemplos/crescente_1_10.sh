@@ -1,4 +1,10 @@
-# Autora: Emanuelle L. Tomczyk 
-# Descrição: Esse comando imprime os números de 1 a 10 em ordem crescente. 
+#Autora: Emanuelle L. Tomczyk 
+#Descrição: Esse comando imprime os números de 1 a 10 em ordem crescente. 
 
-
+#!/bin/bash 
+i=1 
+while [ $i -le 10 ] 
+do 
+      echo "- $i"
+      i=$((i+1))
+done
