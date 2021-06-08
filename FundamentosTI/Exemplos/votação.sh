@@ -1,5 +1,5 @@
-# Autora: Emanuelle L. Tomczyk 
-# Descrição: Esse comando é capaz de determinar as pessoas que já possuem idade para votar. 
+#Autora: Emanuelle L. Tomczyk 
+#Descrição: Esse comando é capaz de determinar as pessoas que já possuem idade para votar. 
 
 #bin/bash
 echo "Qual é o ano atual?" 
