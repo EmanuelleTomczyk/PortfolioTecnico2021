@@ -32,12 +32,15 @@ EMANUELLE LUIZE TOMCZYK
 
 <h3> For: </h3>
 
-* [Exemplo For](Portfolio_Tecnico_2021/FundamentosTI/Exemplos/vetor_nome_for.sh)
+* [Vetor Nome](FundamentosTI/Exemplos/vetor_nome_for.sh)
+* [Preço](FundamentosTI/Exemplos/preço.sh)
 
 <h3> While: </h3>
 
-* [Exemplo While](Portfolio_Tecnico_2021/FundamentosTI/Exemplos/crescente_1_10.sh)
+* [Crescente](FundamentosTI/Exemplos/crescente_1_10.sh)
+* [Decrescente](FundamentosTI/Exemplos/decrescente_10_1.sh)
 
 <h3> If/Else: </h3>
 
-* [Exemplo If Else](Portfolio_Tecnico_2021/FundamentosTI/Exemplos/positivo_negativo.sh)
+* [Positivo Negativo](FundamentosTI/Exemplos/positivo_negativo.sh)
+* [Votação](FundamentosTI/Exemplos/votação.sh)
