@@ -26,13 +26,18 @@ EMANUELLE LUIZE TOMCZYK
 * <b> Comandos Linux -</b> Intermediário
 * <b> Shell Script -</b> Intermediário
 
-<h2> Shell Script (Git Bash): </h2> 
+<h2> Shell Script (Git Bash): </h2>
+
 * Alguns exemplos dos conteúdos estudados em Fundamentos de TI relacionados a Shell Script são: 
+
 <h3> For: </h3>
+
 * [Exemplo_For] (https://github.com/EmanuelleTomczyk/Portfolio_Tecnico_2021/blob/9f29e2dc85efc2db32e14f9edbf7be41d413b1d6/FundamentosTI/Vetores/vetor_nome_for.sh)
 
 <h3> While: </h3>
+
 * [Exemplo_While] (https://github.com/EmanuelleTomczyk/Portfolio_Tecnico_2021/blob/45172e269c5fb1b8c3cb500655402ec3784d3fb2/FundamentosTI/Exemplos/crescente_1_10.sh)
 
 <h3> If/Else: </h3>
+
 * [Exemplo_If_Else] (https://github.com/EmanuelleTomczyk/Portfolio_Tecnico_2021/blob/9f29e2dc85efc2db32e14f9edbf7be41d413b1d6/FundamentosTI/Exemplos/positivo_negativo.sh)
