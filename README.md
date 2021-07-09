@@ -41,5 +41,5 @@ EMANUELLE LUIZE TOMCZYK
 <h3> If/Else: </h3>
 
 * [Exemplo_If_Else] (https://github.com/EmanuelleTomczyk/Portfolio_Tecnico_2021/blob/9f29e2dc85efc2db32e14f9edbf7be41d413b1d6/FundamentosTI/Exemplos/positivo_negativo.sh)
-* [Exemplo If Else] (Portfolio_Tecnico_2021/FundamentosTI/Exemplos/positivo_negativo.sh)
+* [Exemplo If Else](Portfolio_Tecnico_2021/FundamentosTI/Exemplos/positivo_negativo.sh)
 
