@@ -24,3 +24,15 @@ EMANUELLE LUIZE TOMCZYK
 * <b> Fundamento de Redes -</b> Básico 
 * <b> Programação JAVA - </b> Básico
 * <b> Comandos Linux -</b> Intermediário
+* <b> Shell Script -</b> Intermediário
+
+<h2> Shell Script (Git Bash): </h2> 
+* Alguns exemplos dos conteúdos estudados em Fundamentos de TI relacionados a Shell Script são: 
+<h3> For: </h3>
+* [Exemplo_For] (Portfolio_Tecnico_2021/FundamentosTI/Exemplos/vetor_nome_for.sh)
+
+<h3> While: </h3>
+* [Exemplo_While] (Portfolio_Tecnico_2021/FundamentosTI/Exemplos/crescente_1_10.sh)
+
+<h3> If/Else: </h3>
+* [Exemplo_If_Else] (Portfolio_Tecnico_2021/FundamentosTI/Exemplos/positivo_negativo.sh)
