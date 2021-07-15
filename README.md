@@ -32,7 +32,7 @@ EMANUELLE LUIZE TOMCZYK
 
 <h3> For: </h3>
 
-* [Vetor Nome](FundamentosTI/Exemplos/vetor_nome_for.sh)
+* [Vetor Nome](FundamentosTI/Vetores/vetor_nome_for.sh)
 * [Preço](FundamentosTI/Exemplos/preço.sh)
 
 <h3> While: </h3>
