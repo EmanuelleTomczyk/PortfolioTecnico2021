@@ -45,9 +45,11 @@ EMANUELLE LUIZE TOMCZYK
 * [Positivo Negativo](FundamentosTI/Exemplos/positivo_negativo.sh)
 * [Votação](FundamentosTI/Exemplos/votação.sh)
 
-<h2> Java (Git Bash): </h2>
+<h2> Lógica Computacional: </h2>
 
 * Alguns códigos feitos durante a aula de Lógica Computacional são: 
+
+<h3> Java: </h3>
 
 * [JOptionPane](Lógica_Computacional/JOptionPane.java)
 * [Juros](Lógica_Computacional/Juros.java)
