@@ -56,3 +56,7 @@ EMANUELLE LUIZE TOMCZYK
 * [Tabuada](Lógica_Computacional/Tabuada.java)
 * [UNO](Lógica_Computacional/UNO.java)
 
+<h3> Prova: </h3>
+
+* [Script nomes](FundamentosTI/Prova/nome_script.sh)
+* [Permissionamentos](FundamentosTI/Prova/permissionamento.sh)
