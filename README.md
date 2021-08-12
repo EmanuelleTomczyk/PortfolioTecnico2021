@@ -60,3 +60,8 @@ EMANUELLE LUIZE TOMCZYK
 
 * [Script nomes](FundamentosTI/Prova/nome_script.sh)
 * [Permissionamentos](FundamentosTI/Prova/permissionamento.sh)
+
+<h3> Revisão: </h3>
+
+* [Números Pares](FundamentosTI/Revisao/media.sh)
+* [Média](FundamentosTI/Revisao/par.sh)
