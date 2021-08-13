@@ -68,6 +68,5 @@ EMANUELLE LUIZE TOMCZYK
 
 <h3> Avaliação Prática: <h3>  
 
-* [Permissionamento](FundamentosTI/Avaliacao_Pratica/permissão.sh)
-* [Usuarios](FundamentosTI/Avaliacao_Pratica/nomes_script.sh)
-
+* [Permissionamento](FundamentosTI/Avaliacao_Pratica/permissao.sh)
+* [Usuários](FundamentosTI/Avaliacao_Pratica/nomes_script.sh)
