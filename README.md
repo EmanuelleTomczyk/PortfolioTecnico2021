@@ -65,3 +65,8 @@ EMANUELLE LUIZE TOMCZYK
 
 * [Números Pares](FundamentosTI/Revisao/media.sh)
 * [Média](FundamentosTI/Revisao/par.sh)
+
+<h3> Avaliação Prática: <h3>  
+
+* [Permissionamento-Outros](FundamentosTI/Avaliação_Pratica/permissão.sh) 
+* [Usuários Não Humanos](FundamentosTI/Avaliação_Pratica/nomes_script.sh)
