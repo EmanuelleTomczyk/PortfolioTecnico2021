@@ -45,16 +45,7 @@ EMANUELLE LUIZE TOMCZYK
 * [Positivo Negativo](FundamentosTI/Exemplos/positivo_negativo.sh)
 * [Votação](FundamentosTI/Exemplos/votação.sh)
 
-<h2> Lógica Computacional: </h2>
-
-* Alguns códigos feitos durante a aula de Lógica Computacional são: 
-
-<h3> Java: </h3>
-
-* [JOptionPane](Lógica_Computacional/JOptionPane.java)
-* [Juros](Lógica_Computacional/Juros.java)
-* [Tabuada](Lógica_Computacional/Tabuada.java)
-* [UNO](Lógica_Computacional/UNO.java)
+<h2> Avaliações de TI </h2> 
 
 <h3> Prova: </h3>
 
@@ -69,4 +60,16 @@ EMANUELLE LUIZE TOMCZYK
 <h3> Avaliação Prática: </h3>
 
 * [Permissionamento](FundamentosTI/Avaliacao_Pratica/permissao.sh)
-* [Usuários](FundamentosTI/Avaliacao_Pratica/nomes_script.sh) 
+* [Usuários](FundamentosTI/Avaliacao_Pratica/nomes_script.sh)
+
+<h2> Lógica Computacional: </h2>
+
+* Alguns códigos feitos durante a aula de Lógica Computacional são: 
+
+<h3> Java: </h3>
+
+* [JOptionPane](Lógica_Computacional/JOptionPane.java)
+* [Juros](Lógica_Computacional/Juros.java)
+* [Tabuada](Lógica_Computacional/Tabuada.java)
+* [UNO](Lógica_Computacional/UNO.java)
+ 
