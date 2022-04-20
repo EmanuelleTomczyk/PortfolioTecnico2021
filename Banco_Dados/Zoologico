@@ -1,1 +1,179 @@
+-- CRIANDO TABELA FORNECEDOR: 
 
+create table fornecedor(
+	cnpj varchar primary key,
+	nome varchar, 
+	produto varchar, 
+	local varchar,
+	email varchar
+);
+
+insert into fornecedor
+(cnpj, nome, produto, local, email)
+values
+('22.333.333/0001-22', 'Rações & Cia', 'Rações porte grande', 'Goiás', 'racao_cia@gmail.com'),
+('22.890.123/0021-99', 'Pequeninhos', 'Rações porte pequeno', 'Mato Grosso do Sul', 'pequeninhos@gmail.com'),
+('11.222.343/0001-12', 'Meio Mundo', 'Rações porte médio', 'Rondônia', 'meio_mundo@gmail.com');
+
+select * from fornecedor;
+
+-- CRIANDO TABELA ESTOQUE: 
+
+create table estoque(
+	cod serial primary key, 
+	produto varchar, 
+	marca varchar,
+	preco decimal(7,2), 
+	validade date, 
+	qtd int, 
+	data_compra date, 
+	cod_fornecedor varchar, 
+	foreign key (cod_fornecedor) references fornecedor(cnpj)
+);
+
+insert into estoque
+(produto, marca, preco, validade, qtd, data_compra, cod_fornecedor)
+values 
+('Ração de elefante', 'Elephant', 520.60, '2027-09-04', 8, '2022-02-25', '22.333.333/0001-22'),
+('Ração para equinos', 'Horse', 100.00, '2030-07-02', 12, '2021-01-29', '11.222.343/0001-12'); 
+
+select * from estoque;
+
+-- CRIANDO TABELA ANIMAL:
+
+create table animal(
+	cod_animal serial primary key, 
+	nome varchar, 
+	especie varchar, 
+	ano_nasc int, 
+	setor varchar, 
+	vis_veterinario date, 
+	peso decimal(10,2),
+	observacoes varchar
+);
+
+insert into animal
+(nome, especie, ano_nasc, setor, vis_veterinario, peso, observacoes)
+values
+('Bibi', 'Elefante', 2006, 'África', '2022-02-05', 5300.80, 'Apresenta irritabilidade'),
+('Martin', 'Zebra', 2011, 'África', '2021-12-23', 290.50, 'Passa por uma redução alimentar');
+
+select * from animal;
+
+-- CRIANDO TABELA RELACIONAL: 
+
+create table alimentam(
+	cod_estoque int,
+	cod_animal int,
+	foreign key (cod_estoque) references estoque, 
+	foreign key (cod_animal) references animal
+);
+
+-- CRIANDO TABELA FUNCIONARIOS: 
+
+create table funcionarios(
+	pis varchar primary key,
+	nome varchar,
+	carga_horaria int, 
+	salario decimal(7,2),
+	cpf varchar, 
+	cargo varchar, 
+	email varchar
+); 
+
+insert into funcionarios
+(pis, nome, carga_horaria, salario, cpf, cargo, email)
+values 
+('33.55555.22-1', 'Vanessa Martin', 8, 7500.50, '255.655.582-45', 'Administradora', 'vanessa_martin@gmail.com'),
+('55.55555.22-8', 'Igor Machado', 5, 2200.00, '638.885.319-53', 'Cuidador', 'igor_machado@gmail.com');
+
+select * from funcionarios
+
+-- CRIANDO TABELA RELACIONAL:
+ 
+create table cuidam(
+	cod_animal int, 
+	cod_fun varchar,
+	foreign key (cod_animal) references animal,
+	foreign key (cod_fun) references funcionarios
+); 
+
+-- CRIANDO TABELA VISITANTES:
+
+create table visitantes(
+	cpf varchar primary key, 
+	nome varchar,
+	idade int, 
+	checkin date
+);
+
+-- ADICIONANDO INFORMAÇÕES A TABELA COM IMPORTAÇÕES:
+
+\copy visitantes from ‘C:\Users\emanuelle_tomczyk\Documents\visitantes1.csv’ delimiter ';' csv header;
+
+-- INFORMAÇÕES: 
+cpf;nome;idade;checkin
+255.655.525-52;Ana Moreira;31;2022-03-04
+555.666.522-97;Joana Moreira;12;2022-03-04
+255.655.582-45;Antonio Silva;40;2021-12-15
+638.885.319-53;Rosana Silva;61;2021-12-15
+
+-- CRIANDO TABELA BILHETERIA:
+
+create table bilheteria(
+	esta_zoo boolean, 
+	num_pulseira int primary key, 
+	cod_visitante varchar, 
+	foreign key (cod_visitante) references visitantes
+); 
+
+-- ADICIONANDO INFORMAÇÕES A TABELA COM IMPORTAÇÕES:
+
+\copy bilheteria from ‘C:\Users\emanuelle_tomczyk\Documents\bilheteria1.csv’ delimiter ';' csv header;
+
+-- INFORMAÇÕES: 
+esta_zoo;num_pulseira;cod_visitante
+false;40082767;255.655.525-52
+false;40082768;555.666.522-97
+false;35679004;255.655.582-45
+false;35679005;638.885.319-53
+
+-- CRIANDO TABELA CONTAS: 
+
+create table contas(
+	codigo int primary key,
+	estoque_total int, 
+	mes_ano date,
+	bilheteria_total decimal(9,2), 
+	gastos_extras decimal(9,2),
+	lucro decimal(9,2),
+	func_total decimal(9,2)
+); 
+
+-- ADICIONANDO INFORMAÇÕES A TABELA COM IMPORTAÇÕES:
+
+\copy contas from ‘C:\Users\emanuelle_tomczyk\Documents\contas.csv’ delimiter ';' csv header;
+
+-- INFORMAÇÕES: 
+estoque_total;mes_ano;bilheteria_total;gastos_extras;lucro;func_total
+450;30/01/2022;12000.50;1500.75;798.75;9700.50
+300;28/02/2022;15000.75;1000.75;4299.50;9700.50
+
+-- CRIANDO TABELA EMPRESAS_PARCEIRAS: 
+
+create table empresas_parceiras(
+	cod serial primary key,
+	nome varchar,
+	email varchar,
+	aluguel decimal(8,2),
+	funcao varchar
+);
+
+-- ADICIONANDO INFORMAÇÕES A TABELA COM IMPORTAÇÕES:
+
+\copy empresas_parceiras from ‘C:\Users\emanuelle_tomczyk\Documents\empresas_parceiras.csv’ delimiter ';' csv header;
+
+-- INFORMAÇÕES: 
+cod;nome;email;aluguel;funcao
+64729400;AliZoo;alizoo@gmail.com;2500.00;Alimentacao
+64729422;Brinque;brinque@gmail.com;3000.50;Diversao
