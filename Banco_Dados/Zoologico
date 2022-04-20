@@ -1,4 +1,4 @@
--- CRIANDO TABELA FORNECEDOR: 
+# CRIANDO TABELA FORNECEDOR: 
 
 create table fornecedor(
 	cnpj varchar primary key,
@@ -17,7 +17,7 @@ values
 
 select * from fornecedor;
 
--- CRIANDO TABELA ESTOQUE: 
+# CRIANDO TABELA ESTOQUE: 
 
 create table estoque(
 	cod serial primary key, 
