@@ -36,15 +36,11 @@ EMANUELLE LUIZE TOMCZYK
 
 <h3> Zoológico: </h3>
 
-* Neste código foram criadas tabelas com informações necessárias para o funcionamento de um zoológico com base no diagrama criado em conjunto com a turma:
-
-* [Zoológico](Banco_Dados/Zoologico)
+* Neste código foram criadas tabelas com informações necessárias para o funcionamento de um zoológico com base no diagrama criado em conjunto com a turma: [Zoológico](Banco_Dados/Zoologico)
 
 <h3> Competição de Dança: </h3>
 
-* Neste código foram criadas tabelas com informações necessárias para o funcionamento de uma competição de dança com base no diagrama criado em grupos para o trabalho de Banco de Dados:
-
-* [Competição de Dança](Banco_Dados/Competicao_Danca)
+* Neste código foram criadas tabelas com informações necessárias para o funcionamento de uma competição de dança com base no diagrama criado em grupos para o trabalho de Banco de Dados: [Competição de Dança](Banco_Dados/Competicao_Danca)
 
 <h2> Modelagem de Sistemas: </h2>
 
@@ -52,15 +48,11 @@ EMANUELLE LUIZE TOMCZYK
 
 <h3> Sistema Ônibus: </h3>
 
-* Neste código foram criadas Classes visando o funcionamento de um sistema que contém as linhas e empresas de  ônibus listadas:
-
-* [Sistema Ônibus](Modelagem_Sistemas/Sistema_Onibus)
+* Neste código foram criadas Classes visando o funcionamento de um sistema que contém as linhas e empresas de  ônibus listadas: [Sistema Ônibus](Modelagem_Sistemas/Sistema_Onibus)
 
 <h3> Sistema Presídio: </h3>
 
-* Neste código foram criadas Classes visando o funcionamento de um presidio de forma eficiente:
-
-* [Sistema Presídio](Modelagem_Sistemas/Sistema_Presidio)
+* Neste código foram criadas Classes visando o funcionamento de um presidio de forma eficiente: [Sistema Presídio](Modelagem_Sistemas/Sistema_Presidio)
 
 <h2> Programação de Aplicativos: </h2>
 
@@ -68,15 +60,11 @@ EMANUELLE LUIZE TOMCZYK
 
 <h3> Calculadora de Hora: </h3>
 
-* Este código realiza o cálculo de horas com base nas informações passadas pelo usuário:
-
-* [Calculadora de Hora](Programacao_Aplicativo/Calculadora_Hora)
+* Este código realiza o cálculo de horas com base nas informações passadas pelo usuário: [Calculadora de Hora](Programacao_Aplicativo/Calculadora_Hora)
 
 <h3> Geometria Espacial: </h3>
 
-* Este código possui as fórmulas de geometria espacial, calculando sua área, altura e faces conforme a escolha e informações passadas pelo usuário:
-
-* [Geometria Espaciaç](Programacao_Aplicativo/Geo_Espacial)
+* Este código possui as fórmulas de geometria espacial, calculando sua área, altura e faces conforme a escolha e informações passadas pelo usuário: [Geometria Espacial](Programacao_Aplicativo/Geo_Espacial)
 
 <h1> 2021: </h1>
 
