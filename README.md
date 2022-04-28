@@ -36,11 +36,11 @@ EMANUELLE LUIZE TOMCZYK
 
 <h3> Zoológico: </h3>
 
-* Neste código foram criadas tabelas com informações necessárias para o funcionamento de um zoológico com base no diagrama criado em conjunto com a turma: [Zoológico](Banco_Dados/Zoologico)
+* Neste código foram criadas tabelas com informações necessárias para o funcionamento de um zoológico com base no diagrama criado em conjunto com a turma. Nesta atividade tive meu primeiro contato com as tabelas relacionais: [Zoológico](Banco_Dados/Zoologico)
 
 <h3> Competição de Dança: </h3>
 
-* Neste código foram criadas tabelas com informações necessárias para o funcionamento de uma competição de dança com base no diagrama criado em grupos para o trabalho de Banco de Dados: [Competição de Dança](Banco_Dados/Competicao_Danca)
+* Neste código foram criadas tabelas com informações necessárias para o funcionamento de uma competição de dança com base no diagrama criado em grupos para o trabalho de Banco de Dados. A atividade permitiu o desenvolvimento livre das tabelas, permitindo que aplicássemos nossos conhecimentos e criatividade para seu desenvolvimento: [Competição de Dança](Banco_Dados/Competicao_Danca)
 
 <h2> Modelagem de Sistemas: </h2>
 
@@ -48,23 +48,23 @@ EMANUELLE LUIZE TOMCZYK
 
 <h3> Sistema Ônibus: </h3>
 
-* Neste código foram criadas Classes visando o funcionamento de um sistema que contém as linhas e empresas de  ônibus listadas: [Sistema Ônibus](Modelagem_Sistemas/Sistema_Onibus)
+* Neste código foram criadas Classes visando o funcionamento de um sistema que contém as linhas e empresas de  ônibus listadas. Com o decorrer da atividade pude compreender de forma mais detalhada as relações de agregagação e composição aplicadas no código: [Sistema Ônibus](Modelagem_Sistemas/Sistema_Onibus)
 
 <h3> Sistema Presídio: </h3>
 
-* Neste código foram criadas Classes visando o funcionamento de um presidio de forma eficiente: [Sistema Presídio](Modelagem_Sistemas/Sistema_Presidio)
+* Neste código foram criadas Classes visando o funcionamento de um presidio de forma eficiente. A atividade permitiu nosso primeiro contato com a relação de herança aplicada em código: [Sistema Presídio](Modelagem_Sistemas/Sistema_Presidio)
 
 <h2> Programação de Aplicativos: </h2>
 
-* Alguns dos códigos produzidos durante a aula de Programação de Aplicativos utilizando o AndroidStudio são:
+* Alguns dos códigos produzidos durante a aula de Programação de Aplicativos utilizando o AndroidStudio foram:
 
 <h3> Calculadora de Hora: </h3>
 
-* Este código realiza o cálculo de horas com base nas informações passadas pelo usuário: [Calculadora de Hora](Programacao_Aplicativo/Calculadora_Hora)
+* Este código realiza o cálculo de horas com base nas informações passadas pelo usuário. Durante sua construção a aplicação das estruturas while e if foram revistas, assim como as expressões aritméticas: [Calculadora de Hora](Programacao_Aplicativo/Calculadora_Hora)
 
 <h3> Geometria Espacial: </h3>
 
-* Este código possui as fórmulas de geometria espacial, calculando sua área, altura e faces conforme a escolha e informações passadas pelo usuário: [Geometria Espacial](Programacao_Aplicativo/Geo_Espacial)
+* Este código possui as fórmulas de geometria espacial, calculando sua área, altura e faces conforme a escolha e informações passadas pelo usuário. Nele, utilizamos pela primeira vez a estrutura de condição switch/case: [Geometria Espacial](Programacao_Aplicativo/Geo_Espacial)
 
 <h1> 2021: </h1>
 
