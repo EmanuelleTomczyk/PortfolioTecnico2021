@@ -40,7 +40,7 @@ EMANUELLE LUIZE TOMCZYK
 
 <h3> Competição de Dança: </h3>
 
-* Neste código foram criadas tabelas com informações necessárias para o funcionamento de uma competição de dança com base no diagrama criado em grupos para o trabalho de Banco de Dados. A atividade permitiu o desenvolvimento livre das tabelas, permitindo que aplicássemos nossos conhecimentos e criatividade para seu desenvolvimento: [Competição de Dança](Banco_Dados/Competicao_Danca)
+* Neste código foram criadas tabelas com informações necessárias para o funcionamento de uma competição de dança com base no diagrama criado em grupos para o trabalho de Banco de Dados. A atividade permitiu o desenvolvimento livre das tabelas, possibilitando que aplicássemos nossos conhecimentos e criatividade para seu desenvolvimento: [Competição de Dança](Banco_Dados/Competicao_Danca)
 
 <h2> Modelagem de Sistemas: </h2>
 
@@ -64,7 +64,7 @@ EMANUELLE LUIZE TOMCZYK
 
 <h3> Geometria Espacial: </h3>
 
-* Este código possui as fórmulas de geometria espacial, calculando sua área, altura e faces conforme a escolha e informações passadas pelo usuário. Nele, utilizamos pela primeira vez a estrutura de condição switch/case: [Geometria Espacial](Programacao_Aplicativo/Geo_Espacial)
+* Este código possui as fórmulas de geometria espacial, calculando sua área, altura e faces conforme a escolha e informações passadas pelo usuário. Nele utilizamos pela primeira vez a estrutura de condição switch/case: [Geometria Espacial](Programacao_Aplicativo/Geo_Espacial)
 
 <h1> 2021: </h1>
 
