@@ -5,11 +5,11 @@ create table bilheteria(
 	foreign key (cod_visitante) references visitantes
 ); 
 
-# ADICIONANDO INFORMAÇÕES A TABELA COM IMPORTAÇÕES:
+-- ADICIONANDO INFORMAÇÕES A TABELA COM IMPORTAÇÕES:
 
 \copy bilheteria from ‘C:\Users\emanuelle_tomczyk\Documents\bilheteria1.csv’ delimiter ';' csv header;
 
-# INFORMAÇÕES: 
+-- INFORMAÇÕES: 
 esta_zoo;num_pulseira;cod_visitante
 false;40082767;255.655.525-52
 false;40082768;555.666.522-97
