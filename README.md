@@ -66,6 +66,20 @@ EMANUELLE LUIZE TOMCZYK
 
 * Este código possui as fórmulas de geometria espacial, calculando sua área, altura e faces conforme a escolha e informações passadas pelo usuário. Nele utilizamos pela primeira vez a estrutura de condição switch/case: [Geometria Espacial](Programacao_Aplicativo/Geo_Espacial)
 
+<h2> 2º Trimestre: </h2>
+
+<h2> Desenvolvimento de Sistemas: </h2>
+
+* Alguns dos códigos produzidos durante a aula de Desenvolvimento de Sistemas utilizando o AndroidStudio foram:
+
+<h3> Fumator: </h3>
+
+* Fumator é um aplicativo de contagem de cigarro que tem como objetivo a redução de seu consumo através da contagem de uso e mensagens informativas sobre os males do uso do cigarro: [Fumator](Programacao_Aplicativo/Teste_Fumator)
+
+<h3> Criador de Matriz: </h3>
+
+* O código permite que o usuário adicione uma matriz aleatória para realizar o cálculo de sua determinante: [Criar_Matriz](Programacao_Aplicativo/Criar_matriz)
+
 <h1> 2021: </h1>
 
 * Códigos produzidos durante o ano de 2021:
@@ -116,4 +130,3 @@ EMANUELLE LUIZE TOMCZYK
 * [Juros](Lógica_Computacional/Juros.java)
 * [Tabuada](Lógica_Computacional/Tabuada.java)
 * [UNO](Lógica_Computacional/UNO.java)
- 
