@@ -80,6 +80,10 @@ EMANUELLE LUIZE TOMCZYK
 
 * O código permite que o usuário adicione uma matriz aleatória para realizar o cálculo de sua determinante: [Criar_Matriz](Programacao_Aplicativo/Criar_matriz)
 
+<h3> Music: </h3>
+
+* O código utiliza o método Random para geração aleatória de títulos de músicas, apresentando também a capa do álbum e o nome do cantor ou grupo a qual a música pertence: [Music](Programacao_Aplicativo/Music)
+
 <h1> 2021: </h1>
 
 * Códigos produzidos durante o ano de 2021:
