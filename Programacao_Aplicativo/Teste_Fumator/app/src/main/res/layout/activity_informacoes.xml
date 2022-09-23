@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FDF9E7"
+    tools:context=".Informacoes">
+
+    <EditText
+        android:id="@+id/maconha"
+        android:digits="0123456789."
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="10dp"
+        android:ems="10"
+        android:fontFamily="@font/montserrat"
+        android:hint="Maconha"
+        android:inputType="textPersonName"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView11"
+        app:layout_constraintStart_toStartOf="@+id/imageView11"
+        app:layout_constraintTop_toTopOf="@+id/imageView11" />
+
+    <EditText
+        android:id="@+id/palha"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="10dp"
+        android:digits="0123456789."
+        android:ems="10"
+        android:fontFamily="@font/montserrat"
+        android:hint="Cigarro de Palha"
+        android:inputType="textPersonName"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView12"
+        app:layout_constraintStart_toStartOf="@+id/imageView12"
+        app:layout_constraintTop_toTopOf="@+id/imageView12" />
+
+    <EditText
+        android:id="@+id/narguile"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="10dp"
+        android:digits="0123456789."
+        android:ems="10"
+        android:fontFamily="@font/montserrat"
+        android:hint="Narguile"
+        android:inputType="textPersonName"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView10"
+        app:layout_constraintStart_toStartOf="@+id/imageView10"
+        app:layout_constraintTop_toTopOf="@+id/imageView10" />
+
+    <EditText
+        android:id="@+id/tabaco"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="17dp"
+        android:digits="0123456789."
+        android:layout_marginEnd="10dp"
+        android:ems="10"
+        android:fontFamily="@font/montserrat"
+        android:hint="Tabaco"
+        android:inputType="textPersonName"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView9"
+        app:layout_constraintStart_toStartOf="@+id/imageView9"
+        app:layout_constraintTop_toTopOf="@+id/imageView9" />
+
+    <EditText
+        android:id="@+id/charuto"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:digits="0123456789."
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="10dp"
+        android:ems="10"
+        android:fontFamily="@font/montserrat"
+        android:hint="Charuto"
+        android:inputType="textPersonName"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView7"
+        app:layout_constraintStart_toStartOf="@+id/imageView7"
+        app:layout_constraintTop_toTopOf="@+id/imageView7" />
+
+    <EditText
+        android:id="@+id/eletronico"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="10dp"
+        android:ems="10"
+        android:fontFamily="@font/montserrat"
+        android:hint="Cigarro Eletrônico"
+        android:digits="0123456789."
+        android:inputType="textPersonName"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView8"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/imageView8"
+        app:layout_constraintTop_toTopOf="@+id/imageView8" />
+
+    <Button
+        android:id="@+id/entrar_info"
+        android:layout_width="0dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/botao"
+        android:fontFamily="@font/montserrat"
+        android:text="Entrar"
+        android:textAllCaps="false"
+        android:textSize="14sp"
+        app:backgroundTint="@color/cor_botao"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView11" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="163dp"
+        android:layout_height="71dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView10"
+        app:srcCompat="@drawable/campo_menor" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="163dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView9"
+        app:srcCompat="@drawable/campo_menor" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="163dp"
+        android:layout_height="71dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7"
+        app:srcCompat="@drawable/campo_menor" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="163dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView8"
+        app:srcCompat="@drawable/campo_menor" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="163dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/campoemaillogin2"
+        app:srcCompat="@drawable/campo_menor" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="163dp"
+        android:layout_height="71dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/campoemaillogin2"
+        app:srcCompat="@drawable/campo_menor" />
+
+    <ImageView
+        android:id="@+id/campoemaillogin2"
+        android:layout_width="0dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11"
+        app:srcCompat="@drawable/campo" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="110dp"
+        android:fontFamily="@font/montserrat"
+        android:text="O quanto você paga, em média, em uma unidade de:"
+        android:textColor="#1F3629"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="70dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="Informações"
+        android:textColor="#1F3629"
+        android:textSize="41sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/nicotina"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:digits="0123456789."
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="10dp"
+        android:ems="10"
+        android:fontFamily="@font/montserrat"
+        android:hint="Cigarro de Nicotina"
+        android:inputType="textPersonName"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@+id/campoemaillogin2"
+        app:layout_constraintStart_toStartOf="@+id/campoemaillogin2"
+        app:layout_constraintTop_toTopOf="@+id/campoemaillogin2" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

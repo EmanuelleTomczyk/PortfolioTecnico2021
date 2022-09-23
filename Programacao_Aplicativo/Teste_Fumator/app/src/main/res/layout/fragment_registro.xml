@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FDF9E7"
+    tools:context=".Registro">
+
+    <TextView
+        android:id="@+id/sub_palha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="-1"
+        android:textColor="#1F3629"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/iv_cig_palha"
+        app:layout_constraintTop_toBottomOf="@+id/soma_palha" />
+
+    <TextView
+        android:id="@+id/soma_palha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="34dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="+1"
+        android:textColor="#1F3629"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/iv_cig_palha"
+        app:layout_constraintTop_toBottomOf="@+id/iv_narg" />
+
+    <TextView
+        android:id="@+id/soma_mac"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="34dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="+1"
+        android:textColor="#1F3629"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/ivmac"
+        app:layout_constraintTop_toBottomOf="@+id/iv_tab" />
+
+    <TextView
+        android:id="@+id/sub_mac"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="-1"
+        android:textColor="#1F3629"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/ivmac"
+        app:layout_constraintTop_toBottomOf="@+id/soma_mac" />
+
+    <ImageView
+        android:id="@+id/iv_cig_palha"
+        android:layout_width="148dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="50dp"
+        android:src="@drawable/palha"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_narg"
+        app:srcCompat="@drawable/palha" />
+
+    <ImageView
+        android:id="@+id/ivmac"
+        android:layout_width="148dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/maconha"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_tab"
+        app:srcCompat="@drawable/maconha" />
+
+    <ImageView
+        android:id="@+id/iv_tab"
+        android:layout_width="148dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/tabaco"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_cig_elec"
+        app:srcCompat="@drawable/tabaco" />
+
+    <ImageView
+        android:id="@+id/iv_narg"
+        android:layout_width="148dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="50dp"
+        android:src="@drawable/narguile"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_cig_char"
+        app:srcCompat="@drawable/narguile" />
+
+    <TextView
+        android:id="@+id/sub_tab"
+        android:layout_width="wrap_content"
+        android:layout_height="22dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="-1"
+        android:textColor="#1F3629"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/iv_tab"
+        app:layout_constraintTop_toBottomOf="@+id/soma_tab" />
+
+    <TextView
+        android:id="@+id/sub_narg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="-1"
+        android:textColor="#1F3629"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/iv_narg"
+        app:layout_constraintTop_toBottomOf="@+id/soma_narg" />
+
+    <TextView
+        android:id="@+id/soma_tab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="34dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="+1"
+        android:textColor="#1F3629"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/iv_tab"
+        app:layout_constraintTop_toBottomOf="@+id/iv_cig_elec" />
+
+    <ImageView
+        android:id="@+id/imageView31"
+        android:layout_width="37dp"
+        android:layout_height="35dp"
+        android:layout_marginEnd="20dp"
+        android:src="@drawable/bolinha"
+        app:layout_constraintBottom_toBottomOf="@+id/iv_narg"
+        app:layout_constraintEnd_toEndOf="@+id/iv_narg"
+        app:layout_constraintTop_toTopOf="@+id/iv_narg"
+        app:layout_constraintVertical_bias="0.569" />
+
+    <TextView
+        android:id="@+id/soma_narg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="34dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="+1"
+        android:textColor="#1F3629"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/iv_narg"
+        app:layout_constraintTop_toBottomOf="@+id/iv_cig_char" />
+
+    <ImageView
+        android:id="@+id/imageView30"
+        android:layout_width="37dp"
+        android:layout_height="35dp"
+        android:layout_marginEnd="20dp"
+        android:src="@drawable/bolinha"
+        app:layout_constraintBottom_toBottomOf="@+id/iv_tab"
+        app:layout_constraintEnd_toEndOf="@+id/iv_tab"
+        app:layout_constraintTop_toTopOf="@+id/iv_tab" />
+
+    <ImageView
+        android:id="@+id/imageView35"
+        android:layout_width="37dp"
+        android:layout_height="35dp"
+        android:layout_marginEnd="20dp"
+        android:src="@drawable/bolinha"
+        app:layout_constraintBottom_toBottomOf="@+id/iv_cig_palha"
+        app:layout_constraintEnd_toEndOf="@+id/iv_cig_palha"
+        app:layout_constraintTop_toTopOf="@+id/iv_cig_palha" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="37dp"
+        android:layout_height="35dp"
+        android:layout_marginEnd="70dp"
+        android:src="@drawable/bolinha"
+        app:layout_constraintBottom_toBottomOf="@+id/iv_cig_nic"
+        app:layout_constraintEnd_toEndOf="@+id/iv_cig_nic"
+        app:layout_constraintTop_toTopOf="@+id/iv_cig_nic" />
+
+    <ImageView
+        android:id="@+id/iv_cig_char"
+        android:layout_width="148dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="50dp"
+        android:src="@drawable/charuto"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_cig_nic"
+        app:srcCompat="@drawable/charuto" />
+
+    <TextView
+        android:id="@+id/soma_char"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="34dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="+1"
+        android:textColor="#1F3629"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/iv_cig_char"
+        app:layout_constraintTop_toBottomOf="@+id/iv_cig_nic" />
+
+    <ImageView
+        android:id="@+id/imageView34"
+        android:layout_width="37dp"
+        android:layout_height="35dp"
+        android:layout_marginEnd="20dp"
+        android:src="@drawable/bolinha"
+        app:layout_constraintBottom_toBottomOf="@+id/ivmac"
+        app:layout_constraintEnd_toEndOf="@+id/ivmac"
+        app:layout_constraintTop_toTopOf="@+id/ivmac" />
+
+    <TextView
+        android:id="@+id/sub_char"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="-1"
+        android:textColor="#1F3629"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/iv_cig_char"
+        app:layout_constraintTop_toBottomOf="@+id/soma_char" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="210dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="35dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="Registro"
+        android:textAlignment="textStart"
+        android:textColor="#1F3629"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/soma_elet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="34dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="+1"
+        android:textColor="#1F3629"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/iv_cig_elec"
+        app:layout_constraintTop_toBottomOf="@+id/iv_cig_nic" />
+
+    <TextView
+        android:id="@+id/sub_elet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="-1"
+        android:textColor="#1F3629"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/iv_cig_elec"
+        app:layout_constraintTop_toBottomOf="@+id/soma_elet" />
+
+    <TextView
+        android:id="@+id/res_palha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter"
+        android:text="0"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView35"
+        app:layout_constraintEnd_toEndOf="@+id/imageView35"
+        app:layout_constraintStart_toStartOf="@+id/imageView35"
+        app:layout_constraintTop_toTopOf="@+id/imageView35" />
+
+    <TextView
+        android:id="@+id/sub_nic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="-1"
+        android:textColor="#1F3629"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/iv_cig_nic"
+        app:layout_constraintTop_toBottomOf="@+id/soma_nic" />
+
+    <ImageView
+        android:id="@+id/iv_cig_nic"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9"
+        app:srcCompat="@drawable/nicotina" />
+
+    <TextView
+        android:id="@+id/soma_nic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="49dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="+1"
+        android:textColor="#1F3629"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/iv_cig_nic"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="31dp"
+        android:fontFamily="@font/montserrat"
+        android:text="O que você fumou hoje?"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="37dp"
+        android:layout_height="35dp"
+        android:layout_marginEnd="70dp"
+        android:src="@drawable/bolinha"
+        app:layout_constraintBottom_toBottomOf="@+id/iv_cig_nic"
+        app:layout_constraintEnd_toEndOf="@+id/iv_cig_nic"
+        app:layout_constraintTop_toTopOf="@+id/iv_cig_nic" />
+
+    <ImageView
+        android:id="@+id/iv_cig_elec"
+        android:layout_width="148dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/eletronico"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_cig_nic" />
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="37dp"
+        android:layout_height="35dp"
+        android:layout_marginEnd="20dp"
+        android:src="@drawable/bolinha"
+        app:layout_constraintBottom_toBottomOf="@+id/iv_cig_elec"
+        app:layout_constraintEnd_toEndOf="@+id/iv_cig_elec"
+        app:layout_constraintTop_toTopOf="@+id/iv_cig_elec" />
+
+    <TextView
+        android:id="@+id/res_elet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter"
+        android:text="0"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView22"
+        app:layout_constraintEnd_toEndOf="@+id/imageView22"
+        app:layout_constraintStart_toStartOf="@+id/imageView22"
+        app:layout_constraintTop_toTopOf="@+id/imageView22" />
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="37dp"
+        android:layout_height="35dp"
+        android:layout_marginEnd="20dp"
+        android:src="@drawable/bolinha"
+        app:layout_constraintBottom_toBottomOf="@+id/iv_cig_char"
+        app:layout_constraintEnd_toEndOf="@+id/iv_cig_char"
+        app:layout_constraintTop_toTopOf="@+id/iv_cig_char" />
+
+    <TextView
+        android:id="@+id/res_nic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter"
+        android:text="0"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView20"
+        app:layout_constraintEnd_toEndOf="@+id/imageView20"
+        app:layout_constraintStart_toStartOf="@+id/imageView20"
+        app:layout_constraintTop_toTopOf="@+id/imageView20" />
+
+    <TextView
+        android:id="@+id/res_char"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter"
+        android:text="0"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView23"
+        app:layout_constraintEnd_toEndOf="@+id/imageView23"
+        app:layout_constraintStart_toStartOf="@+id/imageView23"
+        app:layout_constraintTop_toTopOf="@+id/imageView23" />
+
+    <TextView
+        android:id="@+id/res_tab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter"
+        android:text="0"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView30"
+        app:layout_constraintEnd_toEndOf="@+id/imageView30"
+        app:layout_constraintStart_toStartOf="@+id/imageView30"
+        app:layout_constraintTop_toTopOf="@+id/imageView30" />
+
+    <TextView
+        android:id="@+id/res_narg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter"
+        android:text="0"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView31"
+        app:layout_constraintEnd_toEndOf="@+id/imageView31"
+        app:layout_constraintStart_toStartOf="@+id/imageView31"
+        app:layout_constraintTop_toTopOf="@+id/imageView31" />
+
+    <TextView
+        android:id="@+id/res_mac"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter"
+        android:text="0"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView34"
+        app:layout_constraintEnd_toEndOf="@+id/imageView34"
+        app:layout_constraintStart_toStartOf="@+id/imageView34"
+        app:layout_constraintTop_toTopOf="@+id/imageView34" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
