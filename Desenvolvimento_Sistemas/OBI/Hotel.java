@@ -3,7 +3,7 @@ import java.util.Scanner;
 class Main {
   public static void main(String[] args) {
     Scanner n = new Scanner(System.in);
-    System.out.println("Digite o valor da diária para quem chegar ao primeiro dia, o aumento da diária a cada dia e o dia da chegada do professor.");
+    System.out.println("Digite o valor da diária para quem chegar ao primeiro dia, o aumento da diária e o dia da chegada do professor.");
     int D = n.nextInt(); 
     int A = n.nextInt(); 
     int N = n.nextInt(); 
