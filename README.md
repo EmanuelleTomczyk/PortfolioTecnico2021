@@ -90,11 +90,11 @@ EMANUELLE LUIZE TOMCZYK
 
 <h3> Idade de Camila: </h3>
 
-* Proposta da OBI para construção de um código que recebe a idade de 2 irmãs e indica qual das informadas é a idade de Camila, a irmã do meio: [Idade_Camila](Desenvolvimento_Sistemas/OBI/Idade_Camila)
+* Proposta da OBI para construção de um código que recebe a idade de 2 irmãs e indica qual das informadas é a idade de Camila, a irmã do meio: [Idade_Camila](Desenvolvimento_Sistemas/OBI/Idade_Camila.java)
 
 <h3> Colônia de Férias dos Professores: </h3>
 
-* Proposta da OBI para construção de um código que determine o valor gasto para diária do hotel, para isso são necessários informações sobre o dia de chegada, o valor da diária no primeiro dia de chegada e o dia de chegada na colônia: [Hotel](Desenvolvimento_Sistemas/OBI/Hotel)
+* Proposta da OBI para construção de um código que determine o valor gasto para diária do hotel, para isso são necessários informações sobre o dia de chegada, o valor da diária no primeiro dia de chegada e o dia de chegada na colônia: [Hotel](Desenvolvimento_Sistemas/OBI/Hotel.java)
 
 <h1> 2021: </h1>
 
