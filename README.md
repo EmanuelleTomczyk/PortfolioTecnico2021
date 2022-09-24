@@ -68,9 +68,9 @@ EMANUELLE LUIZE TOMCZYK
 
 <h2> 2º Trimestre: </h2>
 
-<h2> Desenvolvimento de Sistemas: </h2>
+<h2> Programação de Aplicativos: </h2>
 
-* Alguns dos códigos produzidos durante a aula de Desenvolvimento de Sistemas utilizando o AndroidStudio foram:
+* Alguns dos códigos produzidos durante a aula de Programação de Aplicativos utilizando o AndroidStudio foram:
 
 <h3> Fumator: </h3>
 
@@ -83,6 +83,18 @@ EMANUELLE LUIZE TOMCZYK
 <h3> Music: </h3>
 
 * O código utiliza o método Random para geração aleatória de títulos de músicas, apresentando também a capa do álbum e o nome do cantor ou grupo a qual a música pertence: [Music](Programacao_Aplicativo/Music)
+
+<h2> Desenvolvimento de Sistemas: </h2>
+
+* Alguns dos códigos produzidos durante a aula de Desenvolvimento de Sistemas utilizando o AndroidStudio foram:
+
+<h3> Idade de Camila: </h3>
+
+* Proposta da OBI para construção de um código que recebe a idade de 2 irmãs e indica qual das informadas é a idade de Camila, a irmã do meio: [Idade_Camila](Desenvolvimento_Sistemas/OBI/Idade_Camila)
+
+<h3> Colônia de Férias dos Professores: </h3>
+
+* Proposta da OBI para construção de um código que determine o valor gasto para diária do hotel, para isso são necessários informações sobre o dia de chegada, o valor da diária no primeiro dia de chegada e o dia de chegada na colônia: [Hotel](Desenvolvimento_Sistemas/OBI/Hotel)
 
 <h1> 2021: </h1>
 
