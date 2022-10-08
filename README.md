@@ -68,6 +68,14 @@ EMANUELLE LUIZE TOMCZYK
 
 <h2> 2º Trimestre: </h2>
 
+<h2> Banco de Dados: </h2>
+
+* Código produzido durante a aula de Banco de Dados utilizando o NetBeans:
+
+<h3> Lanchonete: </h3>
+
+* Neste código foram criados códigos e telas que possibilitam a criação de um sistema de lanchonete: [Lanchonete](Banco_Dados/Lanchonete)
+
 <h2> Programação de Aplicativos: </h2>
 
 * Alguns dos códigos produzidos durante a aula de Programação de Aplicativos utilizando o AndroidStudio foram:
