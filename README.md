@@ -112,7 +112,7 @@ EMANUELLE LUIZE TOMCZYK
 
 <h3> Sistema de Votação: </h3>
 
-* O Sistema de Votação é um aplicativo que simula uma urna eletrônica: [Sistema de Votação](Portfolio_Tecnico/Programacao_Aplicativo/Urna)
+* O Sistema de Votação é um aplicativo que simula uma urna eletrônica: [Sistema de Votação](Programacao_Aplicativo/Urna)
 
 <h1> 2021: </h1>
 
