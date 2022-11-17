@@ -104,6 +104,16 @@ EMANUELLE LUIZE TOMCZYK
 
 * Proposta da OBI para construção de um código que determine o valor gasto para diária do hotel, para isso são necessários informações sobre o dia de chegada, o valor da diária no primeiro dia de chegada e o dia de chegada na colônia: [Hotel](Desenvolvimento_Sistemas/OBI/Hotel.java)
 
+<h2> 3º Trimestre: </h2>
+
+<h2> Programação de Aplicativos: </h2>
+
+* Alguns dos códigos produzidos durante a aula de Programação de Aplicativos utilizando o AndroidStudio foram:
+
+<h3> Sistema de Votação: </h3>
+
+* O Sistema de Votação é um aplicativo que simula uma urna eletrônica: [Sistema de Votação](Portfolio_Tecnico/Programacao_Aplicativo/Urna)
+
 <h1> 2021: </h1>
 
 * Códigos produzidos durante o ano de 2021:
