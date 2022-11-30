@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "485797362659",
+    "project_id": "happyworld-fff06",
+    "storage_bucket": "happyworld-fff06.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:485797362659:android:66eb0cab17f40d39927ed6",
+        "android_client_info": {
+          "package_name": "com.example.happyworld"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "485797362659-d0skcj56e6uptr3bbsh4vg72qj09bi0k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkDcG3IADhPsr7W4AU4DfCXmitLtgIdDE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "485797362659-d0skcj56e6uptr3bbsh4vg72qj09bi0k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".Tela_teste2">
+
+    <ImageView
+        android:id="@+id/avancar"
+        android:layout_width="241dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="-4dp"
+        android:layout_marginTop="40dp"
+        android:onClick="calcular"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/imageView14"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup"
+        app:srcCompat="@drawable/avancar" />
+
+    <ImageView
+        android:id="@+id/imagem_t2"
+        android:layout_width="228dp"
+        android:layout_height="241dp"
+        android:layout_marginTop="70dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/moradia_eco" />
+
+    <TextView
+        android:id="@+id/texto2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="30dp"
+        android:fontFamily="@font/antonio_regular"
+        android:text="text"
+        android:textAlignment="center"
+        android:textColor="#1E5DA3"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imagem_t2" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/texto2">
+
+        <RadioButton
+            android:id="@+id/r1"
+            android:layout_width="398dp"
+            android:layout_height="wrap_content"
+            android:buttonTint="#1E5DA3"
+            android:fontFamily="@font/antonio_regular"
+            android:text="Gás natural"
+            android:textColor="#1E5DA3"
+            android:textSize="14sp" />
+
+        <RadioButton
+            android:id="@+id/r2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="#1E5DA3"
+            android:fontFamily="@font/antonio_regular"
+            android:text="Eletricidade"
+            android:textColor="#1E5DA3"
+            android:textSize="14sp" />
+
+        <RadioButton
+            android:id="@+id/r3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="#1E5DA3"
+            android:fontFamily="@font/antonio_regular"
+            android:text="Gasóleo"
+            android:textColor="#1E5DA3"
+            android:textSize="14sp" />
+
+        <RadioButton
+            android:id="@+id/r4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="#1E5DA3"
+            android:fontFamily="@font/antonio_regular"
+            android:text="Fontes renováveis"
+            android:textColor="#1E5DA3"
+            android:textSize="14sp" />
+
+        <RadioButton
+            android:id="@+id/r5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="#1E5DA3"
+            android:fontFamily="@font/antonio_regular"
+            android:textColor="#1E5DA3"
+            android:textSize="14sp" />
+
+        <RadioButton
+            android:id="@+id/r6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="#1E5DA3"
+            android:fontFamily="@font/antonio_regular"
+            android:textColor="#1E5DA3"
+            android:textSize="14sp" />
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="81dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="44dp"
+        android:onClick="voltar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup"
+        app:srcCompat="@drawable/voltar" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FBFBFB"
+    tools:context=".Metas">
+
+    <TextView
+        android:id="@+id/meta_h"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="90dp"
+        android:fontFamily="@font/antonio_regular"
+        android:text="TextView"
+        android:textColor="#4A84C4"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/sim_m"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pb_hig" />
+
+    <TextView
+        android:id="@+id/concluido_h"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:fontFamily="@font/antonio_regular"
+        android:text="100% concluido"
+        android:textColor="#4A84C4"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/pb_hig"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView38"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/meta_consumo"
+        app:srcCompat="@drawable/higienes" />
+
+    <ImageView
+        android:id="@+id/sim_h"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="-5dp"
+        android:layout_marginEnd="4dp"
+        android:onClick="mexe_hig"
+        app:layout_constraintEnd_toStartOf="@+id/nao_h"
+        app:layout_constraintTop_toTopOf="@+id/meta_h"
+        app:srcCompat="@drawable/ok" />
+
+    <ProgressBar
+        android:id="@+id/pb_hig"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="16dp"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="20dp"
+        android:progressBackgroundTint="@color/azul"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/imageView16"
+        app:layout_constraintTop_toTopOf="@+id/imageView38" />
+
+    <ImageView
+        android:id="@+id/nao_h"
+        android:layout_width="17dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="-5dp"
+        android:layout_marginEnd="25dp"
+        android:onClick="mexe_hig"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/meta_h"
+        app:srcCompat="@drawable/x" />
+
+    <TextView
+        android:id="@+id/concluido_c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="25dp"
+        android:fontFamily="@font/antonio_regular"
+        android:text="100% concluido"
+        android:textColor="#4A84C4"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/pb_cons"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView37"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/meta_residuo"
+        app:srcCompat="@drawable/consumos" />
+
+    <ImageView
+        android:id="@+id/sim_c"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="-5dp"
+        android:layout_marginEnd="5dp"
+        android:onClick="mexe_cons"
+        app:layout_constraintEnd_toStartOf="@+id/nao_c"
+        app:layout_constraintTop_toTopOf="@+id/meta_consumo"
+        app:srcCompat="@drawable/ok" />
+
+    <TextView
+        android:id="@+id/meta_consumo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="90dp"
+        android:fontFamily="@font/antonio_regular"
+        android:text="TextView"
+        android:textColor="#4A84C4"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/sim_m"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pb_cons" />
+
+    <ImageView
+        android:id="@+id/nao_c"
+        android:layout_width="17dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="-5dp"
+        android:layout_marginEnd="25dp"
+        android:onClick="mexe_cons"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/meta_consumo"
+        app:srcCompat="@drawable/x" />
+
+    <TextView
+        android:id="@+id/concluido_r"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="25dp"
+        android:fontFamily="@font/antonio_regular"
+        android:text="100% concluido"
+        android:textColor="#4A84C4"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/pb_res"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ProgressBar
+        android:id="@+id/pb_cons"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="16dp"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="20dp"
+        android:progressBackgroundTint="@color/azul"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/imageView16"
+        app:layout_constraintTop_toTopOf="@+id/imageView37" />
+
+    <ImageView
+        android:id="@+id/imageView36"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pb_mor"
+        app:srcCompat="@drawable/residuos" />
+
+    <ProgressBar
+        android:id="@+id/pb_res"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="16dp"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="20dp"
+        android:progressBackgroundTint="@color/azul"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/imageView16"
+        app:layout_constraintTop_toTopOf="@+id/imageView36" />
+
+    <ImageView
+        android:id="@+id/sim_r"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="-5dp"
+        android:layout_marginEnd="5dp"
+        android:onClick="mexe_res"
+        app:layout_constraintEnd_toStartOf="@+id/nao_r"
+        app:layout_constraintTop_toTopOf="@+id/meta_residuo"
+        app:srcCompat="@drawable/ok" />
+
+    <TextView
+        android:id="@+id/meta_residuo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="90dp"
+        android:fontFamily="@font/antonio_regular"
+        android:text="TextView"
+        android:textColor="#4A84C4"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/sim_m"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pb_res" />
+
+    <TextView
+        android:id="@+id/concluido_m"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="25dp"
+        android:fontFamily="@font/antonio_regular"
+        android:text="100% concluido"
+        android:textColor="#4A84C4"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/pb_mor"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/nao_r"
+        android:layout_width="17dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="-5dp"
+        android:layout_marginEnd="25dp"
+        android:onClick="mexe_res"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/meta_residuo"
+        app:srcCompat="@drawable/x" />
+
+    <ImageView
+        android:id="@+id/imageView35"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView34"
+        app:srcCompat="@drawable/moradias" />
+
+    <ImageView
+        android:id="@+id/nao_m"
+        android:layout_width="17dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="-5dp"
+        android:layout_marginEnd="25dp"
+        android:onClick="mexe_mor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pb_mor"
+        app:srcCompat="@drawable/x" />
+
+    <TextView
+        android:id="@+id/concluido_t"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="25dp"
+        android:fontFamily="@font/antonio_regular"
+        android:text="100% concluido"
+        android:textColor="#4A84C4"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/pb_trans"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ProgressBar
+        android:id="@+id/pb_mor"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="16dp"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="20dp"
+        android:progressBackgroundTint="@color/azul"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/imageView16"
+        app:layout_constraintTop_toTopOf="@+id/imageView35" />
+
+    <ImageView
+        android:id="@+id/sim_m"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="-5dp"
+        android:layout_marginEnd="5dp"
+        android:onClick="mexe_mor"
+        app:layout_constraintEnd_toStartOf="@+id/nao_m"
+        app:layout_constraintTop_toBottomOf="@+id/pb_mor"
+        app:srcCompat="@drawable/ok" />
+
+    <TextView
+        android:id="@+id/meta_moradia"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="90dp"
+        android:fontFamily="@font/antonio_regular"
+        android:text="TextView"
+        android:textColor="#4A84C4"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/sim_m"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pb_mor" />
+
+    <ImageView
+        android:id="@+id/imageView34"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView16"
+        app:srcCompat="@drawable/transporte" />
+
+    <TextView
+        android:id="@+id/concluido_ali"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="25dp"
+        android:fontFamily="@font/antonio_regular"
+        android:text="100% concluido"
+        android:textColor="#4A84C4"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/pb_ali"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/meta_transporte"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="90dp"
+        android:fontFamily="@font/antonio_regular"
+        android:text="TextView"
+        android:textColor="#4A84C4"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/sim_t"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pb_trans" />
+
+    <ImageView
+        android:id="@+id/sim_t"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="-5dp"
+        android:layout_marginEnd="5dp"
+        android:onClick="mexe_trans"
+        app:layout_constraintEnd_toStartOf="@+id/nao_t"
+        app:layout_constraintTop_toBottomOf="@+id/pb_trans"
+        app:srcCompat="@drawable/ok" />
+
+    <ImageView
+        android:id="@+id/nao_t"
+        android:layout_width="17dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="-5dp"
+        android:layout_marginEnd="25dp"
+        android:onClick="mexe_trans"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pb_trans"
+        app:srcCompat="@drawable/x" />
+
+    <ProgressBar
+        android:id="@+id/pb_trans"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="16dp"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="20dp"
+        android:progressBackgroundTint="@color/azul"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/imageView16"
+        app:layout_constraintTop_toTopOf="@+id/imageView34" />
+
+    <TextView
+        android:id="@+id/meta1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="90dp"
+        android:fontFamily="@font/antonio_regular"
+        android:text="TextView"
+        android:textColor="#4A84C4"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/sim_ali"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pb_ali" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="0dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/group_72" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView13"
+        app:srcCompat="@drawable/group_73" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView15"
+        app:srcCompat="@drawable/group_74" />
+
+    <ProgressBar
+        android:id="@+id/pb_ali"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="20dp"
+        android:progressBackgroundTint="@color/azul"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/imageView16"
+        app:layout_constraintTop_toTopOf="@+id/imageView16" />
+
+    <ImageView
+        android:id="@+id/sim_ali"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="-5dp"
+        android:layout_marginEnd="5dp"
+        android:onClick="mexe_ali"
+        app:layout_constraintEnd_toStartOf="@+id/nao_ali"
+        app:layout_constraintTop_toBottomOf="@+id/pb_ali"
+        app:srcCompat="@drawable/ok" />
+
+    <ImageView
+        android:id="@+id/nao_ali"
+        android:layout_width="17dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="-5dp"
+        android:layout_marginEnd="25dp"
+        android:onClick="mexe_ali"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pb_ali"
+        app:srcCompat="@drawable/x" />
+
+    <ImageView
+        android:id="@+id/perfil_metas"
+        android:layout_width="150dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginBottom="30dp"
+        android:onClick="perfil"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/perfil" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
